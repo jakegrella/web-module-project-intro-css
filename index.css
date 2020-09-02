@@ -1,4 +1,4 @@
-/* Eric Meyer Reset */
+/* start Eric Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,4 +45,115 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+/* end Eric Meyer Reset */
+
+
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+nav {
+    margin: 4% 0;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    padding: 1% 1.5%;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.4rem;
+}
+.planVisit, .learnPark, .getInvolved {
+    display: inline-block;
+    width: 14%;
+    margin: 0 auto;
+}
+.planVisit {
+    background: #FF764E;
+}
+.learnPark {
+    background: #5ED3EB;
+    margin-left: 15%
+}
+.getInvolved {
+    background: #FFCD69;
+    margin-left: 15%
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+header div{
+    display: inline-block;
+}
+.header-img {
+    border-radius: 50%;
+    width: 225px;
+    margin: 0 10%;
+}
+.title {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.subtitles {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.info {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    padding: 1% 3% 0;
+    margin: 5% 5% 2% 5%;
+    background: #B19281;
+    color: white;
+    text-align: center;
+}
+.info p{
+    padding-bottom: 1.5%;
+}
+
+
+
+.tips {
+    text-align: center;
+    width: 20%;
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0 auto 6%;
+}
+.tips p {
+    line-height: 1.2;
+}
+.tips a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    width: 50%;
+}
+
+.footer-img img{
+    width: 100%;
+    height: 185px;
+    object-fit: cover;
+    object-position: 50% 15%;
+}
+.bottom-nav {
+    background: #FBDEDA;
+    padding: 3% 0;
+    margin: 0;
 }
